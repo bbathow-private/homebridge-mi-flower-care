@@ -284,7 +284,7 @@ MiFlowerCarePlugin.prototype.setUpServices = function () {
     SoilFertility = function () {
         Characteristic.call(this, 'Soil Fertility', '0029260E-B09C-4FD7-9E60-2C60F1250618');
         this.setProps({
-            format: Characteristic.Formats.UINT8,
+            format: Characteristic.Formats.UINT16,
             maxValue: 10000,
             minValue: 0,
             minStep: 1,
