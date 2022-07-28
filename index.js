@@ -177,7 +177,7 @@ MiFlowerCarePlugin.prototype.getStatusLowLight = function (callback) {
 };
 
 MiFlowerCarePlugin.prototype.getCurrentAmbientLightLevel = function (callback) {
-    callback(null, this.storedData.data ? this.storedData.data.lux : 0);
+    callback(null, this.storedData.data ? this.storedData.data.lux : 1);
 };
 
 MiFlowerCarePlugin.prototype.getCurrentTemperature = function (callback) {
